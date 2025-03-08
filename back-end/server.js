@@ -9,7 +9,6 @@ app.use(cors());
 app.use('/signin', require('./routes/Login'));
 app.use('/signup', require('./routes/Signup'));
 app.use('/tokenauth', require('./routes/TokenAuth'));
-app.use('/getcategories', require('./routes/Categories'));
 
 // Example route
 app.get('/', (req, res) => {
